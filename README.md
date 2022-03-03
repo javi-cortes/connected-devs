@@ -3,8 +3,11 @@
 `connected` app is a service that checks whether two "developers" are fully connected.
 
 Given a pair of developer handles they are considered connected if:
+
 ● They follow each other on Twitter.
+
 ● They have at least a Github organization in common.
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
