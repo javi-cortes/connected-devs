@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+sleep 5
+
 cd /app
 
 # Create tables DB

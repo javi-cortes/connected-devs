@@ -9,6 +9,7 @@ services:
       - .env
     ports:
       - "8000:8000"
+    command: ["./wait-for-it.sh", "db:5432", "--", "python", "app/main.py"]
     depends_on:
       - db
 
